@@ -7,6 +7,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 
 
+
 function App() {
   const URL = 'https://first-trial-portfolio.herokuapp.com/'
   return (

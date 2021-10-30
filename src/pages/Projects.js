@@ -1,4 +1,5 @@
-import {useState, useEffect} from 'react'
+import { useState, useEffect } from 'react';
+import { Button } from "../styles";
 const Projects = (props) => {
     const [projects, setProjects] = useState(null);
     const getProjects = async () => {
@@ -17,10 +18,10 @@ const Projects = (props) => {
                 <div class="background-style">
                 <img className="size-images"src={project.image} alt="project" /></div><br/>
                 <a href={project.live}>
-                    <button>LIVE PROJECT</button>
+                    <Button>LIVE PROJECT</Button>
                 </a>
                 <a href={project.git}>
-                <button>GITHUB</button>
+                <Button>GITHUB</Button>
                 </a>
             </div>
         })
