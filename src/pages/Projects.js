@@ -18,10 +18,10 @@ const Projects = (props) => {
                     <h1>{project.name}</h1>
                     <div class="background-style">
                         <img className="size-images" src={project.image} alt="project" /></div><br />
-                    <a href={project.live}>
+                    <a rel="noreferrer"target="_blank"href={project.live}>
                         <Button>LIVE PROJECT</Button>
                     </a>
-                    <a href={project.git}>
+                    <a rel="noreferrer"target="_blank"href={project.git}>
                         <Button>GITHUB</Button>
                     </a>
                 </div>
