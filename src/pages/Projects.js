@@ -12,9 +12,10 @@ const Projects = (props) => {
     }, []);
     const loaded = () => {
         return projects.map((project) => {
-            return<div>
+            return <div className="style-projects">
                 <h1>{project.name}</h1>
-                <img src={project.image} alt="project" />
+                <div class="background-style">
+                <img className="size-images"src={project.image} alt="project" /></div><br/>
                 <a href={project.live}>
                     <button>View Project</button>
                 </a>

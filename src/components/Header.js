@@ -15,11 +15,11 @@ const Header = (props) => {
                 <Link to="/">
                     <div>HOME</div>
                 </Link>
-                <Link to="/about">
-                    <div>ABOUT</div>
-                </Link>
                 <Link to="/projects">
                     <div>PROJECTS</div>
+                </Link>
+                <Link to="/about">
+                    <div>ABOUT</div>
                 </Link>
             </nav>
         </header>
