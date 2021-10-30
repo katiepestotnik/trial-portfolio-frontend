@@ -17,7 +17,7 @@ const About = (props) => {
                 <h3>{about.name}</h3>
                 <p>{about.email}</p>
                 <a href={about.gitHub}>{about.gitHub}</a>
-                <p>{about.bio}</p>
+                <p className="bio">{about.bio}</p>
                 <img src={about.headshot} alt="anon"/>
             </div>
         );

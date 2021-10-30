@@ -12,12 +12,12 @@ const Projects = (props) => {
     }, []);
     const loaded = () => {
         return projects.map((project) => {
-            return <div className="style-projects">
+            return<div className="style-projects">
                 <h1>{project.name}</h1>
                 <div class="background-style">
                 <img className="size-images"src={project.image} alt="project" /></div><br/>
                 <a href={project.live}>
-                    <button>View Project</button>
+                    <button>LIVE PROJECT</button>
                 </a>
                 <a href={project.git}>
                 <button>GITHUB</button>
