@@ -39,13 +39,14 @@ button {
 .footer {
   height: 70px;
   width: 100%;
-  background-image: url(http://www.zingerbugimages.com/backgrounds/sky_blue_starburst_radiating_lines_background_1800x1600.jpg); 
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/29/10/16/abstract-1780386_1280.png); 
   color: transparent;
 }
 .home-image {
   height: 600px;
   width: 100%;
-  margin: 10px;
+  margin: 50px 0 50px 0;
+
 }
 a {
   color: #fff;
