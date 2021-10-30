@@ -14,11 +14,12 @@ const About = (props) => {
     const loaded = () => {
         return (
             <div>
-                <h3>{about.name}</h3>
-                <p>{about.email}</p>
+                <h2>{about.name}</h2>
+                <img className="anon"src={about.headshot} alt="anon"/>
+                <p className="email">{about.email}</p>
                 <a href={about.gitHub}>{about.gitHub}</a>
                 <p className="bio">{about.bio}</p>
-                <img src={about.headshot} alt="anon"/>
+
             </div>
         );
     };
