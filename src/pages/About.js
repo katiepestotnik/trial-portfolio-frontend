@@ -18,7 +18,9 @@ const About = (props) => {
                 <img className="anon"src={about.headshot} alt="anon"/>
                 <p className="email">{about.email}</p>
                 <a href={about.gitHub}>{about.gitHub}</a>
-                <p className="bio">{about.bio}</p>
+                <div className="empty">
+                    <p className="bio">{about.bio}</p>
+                </div>
 
             </div>
         );

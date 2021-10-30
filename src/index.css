@@ -58,17 +58,24 @@ a {
 }
 .bio{
   font-size: 25px;
-  margin: 20px;
-  text-align: justify;
+  text-align: center;
   border: 3px solid #191a73;
   padding: 15px;
-  width: 60%;
-  margin: 10px auto;
+  width: 90%;
+  margin: 20px auto;
   line-height: 40px;
   background-color: #bbdcff;
   color: #191a73;
   border-radius: 10px;
-  opacity: 0.5;
+  opacity: 0.6;
+  display: inline-block;
+}
+.empty{
+  width: 70%;
+  background-color:#0d0d3a;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 20px auto;
 }
 .anon {
   border-radius: 30px;
