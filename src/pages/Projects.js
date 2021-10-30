@@ -12,19 +12,22 @@ const Projects = (props) => {
         getProjects();
     }, []);
     const loaded = () => {
-        return projects.map((project) => {
-            return<div className="style-projects">
-                <h1>{project.name}</h1>
-                <div class="background-style">
-                <img className="size-images"src={project.image} alt="project" /></div><br/>
-                <a href={project.live}>
-                    <Button>LIVE PROJECT</Button>
-                </a>
-                <a href={project.git}>
-                <Button>GITHUB</Button>
-                </a>
-            </div>
-        })
+        return <section className="style-projects">{
+            projects.map((project) => {
+                return <div>
+                    <h1>{project.name}</h1>
+                    <div class="background-style">
+                        <img className="size-images" src={project.image} alt="project" /></div><br />
+                    <a href={project.live}>
+                        <Button>LIVE PROJECT</Button>
+                    </a>
+                    <a href={project.git}>
+                        <Button>GITHUB</Button>
+                    </a>
+                </div>
+            })
+        }
+            </section>
     }
     const loading = () => {
         return<h1>Loading</h1>

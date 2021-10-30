@@ -21,8 +21,8 @@ img {
 }
 .style-projects {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
 }
 .background-style {
