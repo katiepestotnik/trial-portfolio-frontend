@@ -22,6 +22,9 @@ const Header = (props) => {
                 <Link to="/about">
                     <div>ABOUT</div>
                 </Link>
+                <Link to="/form">
+                    <div>FORM</div>
+                </Link>
             </nav>
         </header>
     );
